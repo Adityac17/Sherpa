@@ -1,0 +1,16 @@
+{
+  "id": "case_5_edge_case_nonsense",
+  "name": "Edge Case: Empty or Nonsense Input",
+  "description": "Tests input validation boundary conditions by passing gibberish strings and non-sensical characters.",
+  "input": {
+    "topic": "asdfghjkl1234!@#$%^&*",
+    "proficiency": "Beginner",
+    "learning_goal": "pass an exam",
+    "prompt_version": "v3"
+  },
+  "assertions": {
+    "should_pass_validation": false,
+    "expected_error_contains": "Invalid topic"
+  }
+}
+

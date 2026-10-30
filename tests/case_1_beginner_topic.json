@@ -1,0 +1,19 @@
+{
+  "id": "case_1_beginner_topic",
+  "name": "Beginner Topic: Python Basics for Undergraduates",
+  "description": "Tests recommendations for a beginner student aiming to pass an intro CS college exam.",
+  "input": {
+    "topic": "Python Programming Fundamentals",
+    "proficiency": "Beginner",
+    "learning_goal": "Pass introductory CS university midterm exam",
+    "prompt_version": "v3"
+  },
+  "assertions": {
+    "should_pass_validation": true,
+    "minimum_resource_count": 3,
+    "expected_difficulty": "Beginner",
+    "expected_types_present": ["course", "docs", "practice"],
+    "minimum_rubric_quality_score": 75
+  }
+}
+

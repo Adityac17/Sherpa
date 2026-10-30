@@ -1,0 +1,26 @@
+Recommend the best learning resources for a student.
+
+Topic: {{topic}}
+Proficiency Level: {{proficiency}}
+Learning Goal: {{learning_goal}}
+
+Provide a ranked list of 5 specific, highly acclaimed learning resources.
+CRITICAL CONSTRAINT: Do NOT return generic placeholder titles such as "{{topic}} Course" or "Introduction to {{topic}}". Provide real, world-renowned textbooks, university courses, and tools (e.g., Harvard CS50, OSTEP, NeetCode 150, MIT OCW).
+
+Output must be in JSON format matching this schema:
+{
+  "resources": [
+    {
+      "rank": 1,
+      "title": "Exact Acclaimed Resource Name",
+      "type": "video|course|article|docs|book|practice",
+      "url": "https://...",
+      "why_it_fits": "Short specific reason why this resource fits the student's level and goal",
+      "difficulty": "Beginner|Intermediate|Advanced",
+      "estimated_time": "Estimated completion time",
+      "relevance_score": 9
+    }
+  ]
+}
+
+Return ONLY the raw JSON object. Do not include markdown code blocks or extra text.

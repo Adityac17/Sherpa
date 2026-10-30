@@ -1,0 +1,18 @@
+{
+  "id": "case_4_two_goals",
+  "name": "Two Goals at Once: Full-Stack React & Node",
+  "description": "Tests balancing dual objectives: passing coding interview AND building a portfolio SaaS project.",
+  "input": {
+    "topic": "Modern Full-Stack Development with React and Node.js",
+    "proficiency": "Intermediate",
+    "learning_goal": "Pass senior frontend tech interview and build a SaaS portfolio product",
+    "prompt_version": "v3"
+  },
+  "assertions": {
+    "should_pass_validation": true,
+    "minimum_resource_count": 3,
+    "supports_multi_goal": true,
+    "minimum_rubric_quality_score": 75
+  }
+}
+

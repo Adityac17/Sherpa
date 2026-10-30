@@ -1,0 +1,19 @@
+{
+  "id": "case_2_advanced_topic",
+  "name": "Advanced Topic: Distributed Consensus (Raft & Paxos)",
+  "description": "Tests handling of advanced collegiate engineering topics with project building goals.",
+  "input": {
+    "topic": "Distributed Consensus Algorithms: Raft and Paxos",
+    "proficiency": "Advanced",
+    "learning_goal": "Build a fault-tolerant distributed replicated state machine",
+    "prompt_version": "v3"
+  },
+  "assertions": {
+    "should_pass_validation": true,
+    "minimum_resource_count": 3,
+    "expected_difficulty": "Advanced",
+    "expected_types_present": ["docs", "article", "practice"],
+    "minimum_rubric_quality_score": 75
+  }
+}
+

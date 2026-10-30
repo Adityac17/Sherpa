@@ -1,0 +1,18 @@
+{
+  "id": "case_3_vague_goal",
+  "name": "Vague Goal: Machine Learning Foundations",
+  "description": "Tests system robustness when student provides an ambiguous or vague learning goal.",
+  "input": {
+    "topic": "Machine Learning and Neural Networks",
+    "proficiency": "Intermediate",
+    "learning_goal": "Just want to know some AI stuff and see what is out there",
+    "prompt_version": "v3"
+  },
+  "assertions": {
+    "should_pass_validation": true,
+    "minimum_resource_count": 3,
+    "handles_ambiguity": true,
+    "minimum_rubric_quality_score": 70
+  }
+}
+
